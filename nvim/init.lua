@@ -17,3 +17,8 @@ end
 
 require "lazy_setup"
 require "polish"
+
+vim.opt.number = true           -- Ativa a numeração absoluta
+vim.opt.relativenumber = false  -- Desativa a numeração relativa
+
+

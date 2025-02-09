@@ -2,9 +2,6 @@
 -- Here are some examples:
 
 -- Adicionando a configuração da numeração de linhas
-vim.opt.number = true           -- Ativa a numeração absoluta
-vim.opt.relativenumber = false  -- Desativa a numeração relativa
-
 ---@type LazySpec
 return {
   {
@@ -15,19 +12,6 @@ return {
         open_mapping = [[<C-'>]],  -- Mapeia o CTRL + ' para abrir o terminal
         direction = "float",  -- Terminal no modo flutuante
       }
-    end,
-  },
-  {
-    "nvim-neo-tree/neo-tree.nvim",
-    branch = "v2.x",
-    config = function()
-      require("neo-tree").setup({
-        filesystem = {
-          filtered_items = {
-            hide_dotfiles = false,  -- Mostra arquivos ocultos
-          },
-        }
-      })
     end,
   }
 }
