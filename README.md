@@ -8,3 +8,6 @@ Modificações somente nas ultimas linhas
 
 ## alacrity
 Modificações para o app alacrity não integrado somente em alacrity.toml
+
+## bspwm
+Modificações para o bswmrc iniciar com programas pré definidos
