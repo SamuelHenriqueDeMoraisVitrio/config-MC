@@ -189,5 +189,7 @@ bspcomp
 bspdunst
 bspfloat &
 
-alacritty
-
+bspterm
+# Regra para o google abrir por padrão na segunda aba
+bspc rule -a Google-chrome desktop=^2
+google-chrome-stable --new-window "https://web.whatsapp.com/" "https://github.com/SamuelHenriqueDeMoraisVitrio" "https://chatgpt.com/" & sleep 0.2; bspc desktop -f last
