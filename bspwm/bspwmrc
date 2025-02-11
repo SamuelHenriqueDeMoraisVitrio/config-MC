@@ -196,4 +196,8 @@ bspc rule -a Google-chrome desktop=^2 follow=off
 
 google-chrome-stable --new-window "https://web.whatsapp.com/" "https://github.com/SamuelHenriqueDeMoraisVitrio" "https://chatgpt.com/" &
 
-sleep 5 && bspc desktop -f ^1
+sleep 5 && bspc desktop -f ^1 &
+
+sh ~/scripts/nitrogen_wallpaper_sequence.sh > /dev/null 2>&1 &
+
+

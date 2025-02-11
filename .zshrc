@@ -120,6 +120,7 @@ rehash_precmd() {
 
 add-zsh-hook -Uz precmd rehash_precmd
 
+# Alias
 # omz
 alias zsh-config="nvim ~/.zshrc"
 alias zshconfig="nvim ~/.zshrc"
