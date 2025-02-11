@@ -140,3 +140,6 @@ alias gp='git push'
 
 # editor
 alias v='nvim'
+
+# system
+alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
