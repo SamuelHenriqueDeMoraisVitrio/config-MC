@@ -13,5 +13,7 @@ cp -r ~/.config/alacritty .
 rm -rf bspwm
 cp -r ~/.config/bspwm .
 
+rm -rf scripts
+cp -r ~/scripts .
 
 
