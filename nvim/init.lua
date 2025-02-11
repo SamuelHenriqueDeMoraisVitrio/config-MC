@@ -20,5 +20,13 @@ require "polish"
 
 vim.opt.number = true           -- Ativa a numeração absoluta
 vim.opt.relativenumber = false  -- Desativa a numeração relativa
+vim.lsp.buf.format = function() end
+-- Desativa a auto-importação e auto-include no LSP
+vim.lsp.handlers["textDocument/implementation"] = function() end
+vim.lsp.handlers["textDocument/references"] = function() end
+vim.lsp.handlers["textDocument/documentSymbol"] = function() end
+
+
+
 
 
