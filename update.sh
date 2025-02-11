@@ -16,4 +16,7 @@ cp -r ~/.config/bspwm .
 rm -rf scripts
 cp -r ~/scripts .
 
+rm -rf wallpapers
+cp -r ~/Pictures/wallpapers .
+
 
